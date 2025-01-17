@@ -107,7 +107,7 @@ const ExcelLikeTable = () => {
               {tableData[0].map((header, colIndex) => (
                 <th
                   key={colIndex}
-                  className="px-4 py-2 border text-left font-medium text-gray-700"
+                  className="px-4 py-2 border whitespace-nowrap text-left font-medium text-gray-700"
                   contentEditable
                   suppressContentEditableWarning
                 >
@@ -137,7 +137,7 @@ const ExcelLikeTable = () => {
                 {row.map((cell, colIndex) => (
                   <td
                     key={colIndex}
-                    className={`px-4 py-2 border text-sm text-gray-700 h-4`}
+                    className={`px-4 py-2 whitespace-nowrap border text-sm text-gray-700 h-4`}
                     contentEditable
                     suppressContentEditableWarning
                     onBlur={(e) =>
