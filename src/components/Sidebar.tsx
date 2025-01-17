@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Sidebar = () => {
   return (
-    <div className="border-gray-200 border-e-2 min-w-[56px] h-full flex flex-col items-center justify-between p-3">
+    <div className="max-md:hidden border-gray-200 border-e-2 min-w-[56px] h-full flex flex-col items-center justify-between p-3">
       <div className="flex flex-col gap-5 mt-3">
         {tabs.slice(0, 3).map((tab, index) => (
           <div key={`tab1-${index}`} className="relative cursor-pointer group">

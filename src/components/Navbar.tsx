@@ -5,7 +5,7 @@ import ToggleSwitch from "./Switch";
 const Navbar = () => {
   return (
     <nav className="border-gray-200 border-b-2 p-2 h-[56px] flex justify-between">
-      <div className="flex gap-4 items-center">
+      <div className="flex gap-4 max-md:gap-2 items-center">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <p> Name of the file</p>
       </div>
-      <div className="flex gap-6 items-center">
+      <div className="flex gap-6 max-md:gap-2 items-center">
         <div>
           {/* using client component as leaf component with ultimately 
           make our navbar server component */}

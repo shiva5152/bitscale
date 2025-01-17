@@ -3,9 +3,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full p-4 flex justify-between items-center">
-      <div className="flex gap-4 items-center">
-        <div className="flex flex-col my-auto text-sm text-gray-500 whitespace-nowrap min-w-[240px] w-[364px]">
+    <div className="w-full p-4 flex justify-between items-center max-md:flex-col max-md:p-2 max-md:justify-center">
+      <div className="flex gap-4 max-md:flex-col items-center">
+        <div className="flex flex-col my-auto text-sm text-gray-500 whitespace-nowrap min-w-[240px] w-[364px] max-md:max-w-[100px]">
           <div className="flex gap-2.5 items-center px-4 py-2 w-full bg-gray-50 rounded-lg border border-gray-300 border-solid">
             <div className="flex flex-1 shrink gap-2.5 items-center self-stretch my-auto w-full basis-0 min-w-[240px]">
               <div>
@@ -33,11 +33,11 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-2 items-center h-full text-xs font-medium text-gray-800 min-w-[240px]">
+        <div className="flex gap-2 items-center h-full text-xs font-medium text-gray-800 min-w-[240px] max-md:w-[100px] max-md:flex-wrap">
           {menu.map((item) => (
             <div className="flex gap-1.5 justify-center items-center self-stretch px-3 py-2 my-auto bg-white rounded-lg">
               {item.icon}
-              <div className="self-stretch my-auto">
+              <div className="self-stretch my-auto whitespace-nowrap">
                 {item.count ? `${item.count} ${item.title}` : item.title}
               </div>
             </div>

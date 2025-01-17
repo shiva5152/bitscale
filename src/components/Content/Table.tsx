@@ -19,6 +19,7 @@ const ExcelLikeTable = () => {
       "Oct 12, 2024 at 14:08 PM",
       ["", "Bitscale Evaluation - Account Rele..", ""],
       ["/images/logo-1.png", "Bitscale Evaluation - Account Rele."],
+      "",
     ],
     [
       "2",
@@ -30,6 +31,7 @@ const ExcelLikeTable = () => {
         "italic text-gray-400",
       ],
       ["/images/logo-2.png", "Bmw Evaluation - Relevancy Rele.", ""],
+      "",
     ],
     [
       "3",
@@ -41,6 +43,7 @@ const ExcelLikeTable = () => {
         "underline text-blue-500",
       ],
       ["/images/logo-3.png", "Google Evaluation - Relevancy Rele.", ""],
+      "",
     ],
     [
       "4",
@@ -52,6 +55,7 @@ const ExcelLikeTable = () => {
         "italic text-gray-400",
       ],
       ["/images/logo-4.png", "Apple Evaluation - Relevancy Rele.", ""],
+      "",
     ],
     [
       "5",
@@ -63,8 +67,9 @@ const ExcelLikeTable = () => {
         "italic text-gray-400",
       ],
       ["/images/logo-5.png", "Figma Evaluation - Relevancy Rele.", ""],
+      "",
     ],
-    ["", "", "+ Add Row", ["", "", ""], ["", "", ""]],
+    ["", "", "+ Add Row", ["", "", ""], ["", "", ""], ""],
   ]);
 
   const addColumn = (type: string) => {
